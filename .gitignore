@@ -1,0 +1,17 @@
+# Chaves de API e Segredos
+.env
+st.secrets
+
+# Pastas de Ambiente Virtual
+venv/
+.venv/
+env/
+
+# Ficheiros Temporários do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ficheiros Temporários do Sistema/Upload
+temp.pdf
+.DS_Store
