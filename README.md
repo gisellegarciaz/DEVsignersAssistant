@@ -127,15 +127,17 @@ streamlit run seu_arquivo.py
 <h2>📁 Estrutura Recomendada do Projeto</h2>
 
 ```bash
-├── app/
-│   ├── interface.py
-│   ├── graph.py
-│   ├── rag.py
-│   └── utils.py
-├── assets/
-├── .env.example
+.
+├── .git
+├── README.md
+├── __pycache__
+├── .env
+├── .gitignore
+├── .streamlit
+├── chatbot_hibrido.py
+├── interface_hibrida.py
 ├── requirements.txt
-└── README.md
+├── venv
 ```
 
 <br>
