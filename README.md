@@ -146,7 +146,6 @@ streamlit run your_file.py
 
 <h2>📌 Future Improvements</h2>
 
-```
 <ul>
 <li>User authentication</li>
 <li>Persistent conversation history</li>
@@ -154,7 +153,7 @@ streamlit run your_file.py
 <li>Cloud deployment (Streamlit Cloud, Render, AWS)</li>
 <li>Multi-document mode</li>
 </ul>
-```
+
 
 <h2>👩‍💻 About the Author</h2>
 
