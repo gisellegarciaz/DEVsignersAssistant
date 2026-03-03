@@ -1,3 +1,179 @@
+<p align="right">
+  <a href="#documentacao-pt">Ver em Português 🇧🇷</a> | 
+  <a href="#readme-en">View in English 🇺🇸</a>
+</p>
+
+<a id="readme-en"></a>
+<h1>📑 DEVsigner's Assistant</h1>
+<h3>Hybrid Contextual AI for Developers & Designers</h3>
+
+<p><strong>The balance between code logic and design sensitivity.</strong></p>
+
+<p>
+The <strong>DEVsigner's Assistant</strong> is an AI assistant designed to optimize the workflow of Front-end Developers and UX Designers, combining LLM-based architecture with a carefully crafted visual experience.
+</p>
+
+<p>
+This project was developed as the final project for the <strong>Introduction to LLMs</strong> track of the TIC em Trilhas residency (PUC-Rio & Serratec).
+</p>
+
+<br>
+
+<h2>✨ Overview</h2>
+
+<p>The project aims to unite:</p>
+
+<ul>
+  <li>Contextual intelligence based on technical documents</li>
+  <li>Interface with a consistent visual identity</li>
+  <li>Real-time streaming responses</li>
+  <li>Hybrid architecture with conversational flow orchestration</li>
+</ul>
+
+<p>
+The result is an assistant capable of providing contextualized answers while maintaining a fluid and pleasant experience.
+</p>
+
+<br>
+
+<h2>🎨 Visual Identity & UX</h2>
+
+<p>
+The interface was built based on the <strong>Dracula Theme</strong> aesthetic, prioritizing contrast, readability, and modernity.
+</p>
+
+<h4>Key UX Decisions</h4>
+
+<ul>
+  <li>Custom CSS injected into Streamlit</li>
+  <li>Fully responsive layout</li>
+  <li>Personalized focus states</li>
+  <li>Vector icons via Font Awesome</li>
+  <li>Sidebar with branding and quick access to portfolio</li>
+</ul>
+
+<p>
+The visual proposal reinforces the core concept of the project: technology with design sensitivity.
+</p>
+
+<br>
+
+<h2>🏗️ System Architecture</h2>
+
+
+
+<h4>Interface Layer</h4>
+<ul>
+  <li><strong>Streamlit</strong> — Interface rendering and user interaction</li>
+</ul>
+
+<h4>Orchestration Layer</h4>
+<ul>
+  <li><strong>LangGraph</strong> — State management and conversational flows</li>
+</ul>
+
+<h4>Intelligence Layer</h4>
+<ul>
+  <li><strong>OpenRouter</strong> — Gateway for Large Language Models (LLMs)</li>
+  <li><strong>RAG (Retrieval-Augmented Generation)</strong> — Context retrieval from technical PDF documents</li>
+</ul>
+
+<h4>Interaction Experience</h4>
+<ul>
+  <li>Real-time response streaming</li>
+  <li>Contextualized conversation</li>
+  <li>Modular structure for future expansion</li>
+</ul>
+
+<br>
+
+<h2>🚀 How to Run the Project</h2>
+
+<h4>1. Prerequisites</h4>
+
+<ul>
+  <li>Python 3.10+</li>
+  <li>OpenRouter API Key</li>
+</ul>
+
+<br>
+
+<h4>2. Environment Variables Configuration</h4>
+
+<p>
+To protect sensitive credentials, use environment variables.
+</p>
+
+<ol>
+  <li>Clone the repository</li>
+  <li>Create a <code>.env</code> file in the project root</li>
+  <li>Add your key according to the template:</li>
+</ol>
+
+```env
+OPENROUTER_API_KEY=your_key_here
+```
+
+<h4>3. Installation</h4>
+
+```
+pip install -r requirements.txt
+```
+
+<h4>4. Execution</h4>
+
+```
+streamlit run your_file.py
+```
+
+
+<h2>📁 Recommended Project Structure</h2>
+
+```
+.
+├── .git
+├── README.md
+├── __pycache__
+├── .env
+├── .gitignore
+├── .streamlit
+├── chatbot_hybrid.py
+├── interface_hybrid.py
+├── requirements.txt
+├── venv
+```
+
+
+<h2>📌 Future Improvements</h2>
+
+```
+<ul>
+<li>User authentication</li>
+<li>Persistent conversation history</li>
+<li>Integration with a dedicated vector database</li>
+<li>Cloud deployment (Streamlit Cloud, Render, AWS)</li>
+<li>Multi-document mode</li>
+</ul>
+```
+
+<h2>👩‍💻 About the Author</h2>
+
+<p>
+<strong>Giselle Garcia</strong><br>
+Full-Stack Developer & UX Designer
+</p>
+<p>
+Product Designer (UFF).<br>
+Full Stack Developer (SENAI / Serratec).<br>
+Focus on React, Java, and Spring Boot.
+</p>
+
+
+<br>
+<hr>
+<br>
+<a id="documentacao-pt"></a>
+<p>🇧🇷</p>
 <h1>📑 DEVsigner's Assistant</h1>
 <h3>IA Contextual Híbrida para Desenvolvedores & Designers</h3>
 
